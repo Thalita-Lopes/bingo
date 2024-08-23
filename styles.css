@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body {
+    color: #f0eeee;
+    background-color: rgb(19, 28, 64);
+    font-family: "Nunito", sans-serif;  
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;   
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-inicio {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-start, .button-sort {
+    background-color: rgb(209, 22, 22);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 0.4rem;
+    box-shadow: 2px 2px #423f3f51;
+}
+
+.input-number{
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container-bools{
+    background-color: #f0eeee;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.bool {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: solid 0.05rem #2e2b2b36;
+    box-shadow: 2px 2px #2e2b2b36;
+    text-align: center;
+}
+
+.bool-number {
+    color: #22222274;
+    margin: auto;
+    padding-top: 6px;
+    font-size: 28px;
+}
+

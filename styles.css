@@ -56,6 +56,11 @@ p {
     flex-wrap: wrap;
     gap: 20px;
 }
+.container-sort {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20rem;
+}
 
 .bool {
     height: 50px;
@@ -73,3 +78,15 @@ p {
     font-size: 28px;
 }
 
+.sort {
+    align-items: center;
+    display: column;
+}
+
+.sorted-number{
+    background-color: #07199274;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    box-shadow: 5px 5px #2e2b2b36;
+}

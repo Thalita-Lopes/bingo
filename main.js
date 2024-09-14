@@ -11,8 +11,9 @@ function createSpace(){
             let number = document.createElement('p')
             number.classList.add('bool-number')
             let texto = document.createTextNode(`${i}`) 
-            containerBools.appendChild(newBool)
+            newBool.appendChild(number)
             number.appendChild(texto)
+            containerBools.appendChild(newBool)
         }
         
     } else {

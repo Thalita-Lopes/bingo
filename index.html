@@ -6,23 +6,22 @@
     <link rel="shortcut icon" type="imagex/png" href="assets/bingo.ico">
     <link rel="stylesheet" href="styles.css">
     <title>Bingo</title>
-    <script src="main.js"></script>
+    
 </head>
 <body>
     <header> Bingo </header>
 
    <div class="container">
-    <section>
-        <img src="assets/imagem.png" alt="">
+    <section class="image-bingo">
+        <img  src="assets/Bingo.png" alt="">
     </section>
-    <section>
-        <form class="form-inicio" action="" method="post">
+    <section class="form-inicio">
             <p>Indique a quantidade de números:</p>
-            <input class="input-number" type="number">
-            <a rel="sorteio.html" class="button-start" onclick="createSpace(60)">Começar</a>
-        </form>
+            <input class="input-number" id="quantidade" type="number" placeholder="Digite um número">
+            <button class="button-start" onclick="Enviar()">Começar</button>
     </section>
    </div>
     <footer>Desenvolvido por <a href="#">Thalita</a></footer>
+    <script src="main.js"></script>
 </body>
 </html>
